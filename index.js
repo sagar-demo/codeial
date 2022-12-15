@@ -48,7 +48,7 @@ app.use(session({
     saveUninitialized: false, // don't create session until something stored
     resave: false,
     store: MongoStore.create({
-      mongoUrl: mongodb+srv://koshal:IA58PPRA0ivZf5Br@cluster0.x7vc4e4.mongodb.net/codeial?retryWrites=true&w=majority',
+      mongoUrl: 'mongodb+srv://koshal:IA58PPRA0ivZf5Br@cluster0.x7vc4e4.mongodb.net/codeial?retryWrites=true&w=majority',
      // mongoOptions: advancedOptions ,// See below for details
       autoRemove: 'disabled'
     })
